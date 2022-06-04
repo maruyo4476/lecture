@@ -18,6 +18,26 @@ if citys is not None:
     #!pip3 install -U selenium
     #!pip3 install webdriver_manager
 #Select(element).select_by_value(mydict[citys])
+
+
+from selenium import webdriver
+import os, sys
+
+@st.experimental_singleton
+def installff():
+  os.system('sbase install webdriver')
+  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/webdriver /home/appuser/venv/bin/webdriver')
+
+_ = installff()
+
+#from selenium.webdriver import FirefoxOptions
+#opts = FirefoxOptions()
+#opts.add_argument("--headless")
+#browser = webdriver.Firefox(options=opts)
+
+#browser.get('http://example.com')
+
+
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
