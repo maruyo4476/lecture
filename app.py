@@ -38,7 +38,6 @@ _ = installff()
 #browser.get('http://example.com')
 
 
-from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
 import re
