@@ -1,0 +1,91 @@
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+1654400450434	geckodriver	INFO	Listening on 127.0.0.1:49523
+1654400453504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49524" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\rfhxy\\AppData\\Local\\Temp\\rust_mozprofile9i7DOl"
+*** You are running in headless mode.
+1654400455142	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49524
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu1654400459318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49552" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\rfhxy\\AppData\\Local\\Temp\\rust_mozprofile7stQiF"
+*** You are running in headless mode.
+1654400461525	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49550
+[GFX1-]: RenderCompositorSWGL failed mapping default framebufconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"
+Exiting due to channel error.
+port 49656
+DevTools listening on ws://localhost:49552/devtools/browser/d5ae7030-b03d-48dd-b08d-3c098e0b25ee
+Read port: 49656
+1654400468971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"
+1654400485093	geckodriver	INFO	Listening on 127.0.0.1:49724
+1654400488055	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "49725" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\rfhxy\\AppData\\Local\\Temp\\rust_mozprofilecnYKFS"
+*** You are running in headless mode.
+1654400489747	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:49725
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\rfhxy\\AppData\\Local\\Temp\\rust_mozprofilecnYKFS\\search.json.mozlz4", (void 0)))
+1654400492970	Marionette	INFO	Listening on port 49776
+Read port: 49776
+DevTools listening on ws://localhost:49725/devtools/browser/760c9c13-e987-4fc6-9d10-67fd15fa19a1
+1654400493090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"

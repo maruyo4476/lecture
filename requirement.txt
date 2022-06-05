@@ -10,3 +10,4 @@ selenium.webdriver.support.ui
 requests.exceptions
 pandas
 webdriver
+firefox-esr

@@ -15,49 +15,68 @@ if citys is not None:
     button=st.button('検索開始')
     comment=st.empty()
     st.subheader('検索は少し時間が掛かります。')
-    #!pip3 install -U selenium
-    #!pip3 install webdriver_manager
-#Select(element).select_by_value(mydict[citys])
 
 
-from selenium import webdriver
+#from selenium import webdriver
+#import os, sys
+
+#@st.experimental_singleton
+#def installff():
+#  os.system('sbase install webdriver')
+#  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/webdriver /home/appuser/venv/bin/webdriver')
+
+#_ = installff()
+
+##from selenium.webdriver import FirefoxOptions
+##opts = FirefoxOptions()
+##opts.add_argument("--headless")
+##browser = webdriver.Firefox(options=opts)
+
+##browser.get('http://example.com')
+
+
+#from webdriver_manager.chrome import ChromeDriverManager
+
+
+import streamlit as st
 import os, sys
 
 @st.experimental_singleton
 def installff():
-  os.system('sbase install webdriver')
-  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/webdriver /home/appuser/venv/bin/webdriver')
-
+  os.system('sbase install geckodriver')
+  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
 _ = installff()
-
-#from selenium.webdriver import FirefoxOptions
-#opts = FirefoxOptions()
-#opts.add_argument("--headless")
-#browser = webdriver.Firefox(options=opts)
+from selenium import webdriver
+from selenium.webdriver import FirefoxOptions
+opts = FirefoxOptions()
+opts.add_argument("--headless")
+driver= webdriver.Firefox(options=opts)
 
 #browser.get('http://example.com')
+#st.write(browser.page_source)
 
 
-from webdriver_manager.chrome import ChromeDriverManager
+
 
 import re
 import requests
 
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
-options=Options()
-options.add_argument('--headless')
+#from selenium.webdriver.chrome.options import Options
+#options=Options()
+#options.add_argument('--headless')
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import time
 
 from requests.exceptions import Timeout
-driver=webdriver.Chrome(ChromeDriverManager().install(),options=options)
+#driver=webdriver.Chrome(ChromeDriverManager().install(),options=options)
 
 
 url='https://www.hellowork.mhlw.go.jp/'
 driver.get(url)
+#driver.get(url)
 time.sleep(1)
 elem_kyuujin_btn=driver.find_element_by_class_name('retrieval_icn')
 elem_kyuujin_btn.click()
