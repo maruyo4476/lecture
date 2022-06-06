@@ -1,3 +1,4 @@
+
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -38,26 +39,20 @@ if citys is not None:
 #from webdriver_manager.chrome import ChromeDriverManager
 
 
-import streamlit as st
+#import streamlit as st
 import os, sys
 
 @st.experimental_singleton
 def installff():
   os.system('sbase install geckodriver')
-  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver')
+  os.system('ln -s /home/appuser/venv/lib/python3.7/site-packages/seleniumbase/drivers/geckodriver /home/appuser/venv/bin/geckodriver') 
 _ = installff()
 from selenium import webdriver
 from selenium.webdriver import FirefoxOptions
 opts = FirefoxOptions()
 opts.add_argument("--headless")
+#driver=webdriver.Firefox(exectable_path=firefox_driver_path)
 driver= webdriver.Firefox(options=opts)
-
-#browser.get('http://example.com')
-#st.write(browser.page_source)
-
-
-
-
 import re
 import requests
 
