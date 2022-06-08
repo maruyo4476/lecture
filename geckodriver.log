@@ -631,3 +631,15 @@ DevTools listening on ws://localhost:55315/devtools/browser/c4d63c88-c6c6-440a-9
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"
 1654595357275	geckodriver	INFO	Listening on 127.0.0.1:55433
+1654595360322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55434" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\rfhxy\\AppData\\Local\\Temp\\rust_mozprofilej5bx2e"
+*** You are running in headless mode.
+1654595361287	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55434
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\rfhxy\\AppData\\Local\\Temp\\rust_mozprofilej5bx2e\\search.json.mozlz4", (void 0)))
+1654595364101	Marionette	INFO	Listening on port 55458
+Read port: 55458
+1654595364227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:55434/devtools/browser/03357d4f-d1b6-4fe2-b97b-5ccd9da5b0c8
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hellowork.mhlw.go.jp"
